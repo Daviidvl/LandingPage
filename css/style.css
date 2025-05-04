@@ -44,38 +44,6 @@ body{
     background-color: #0f0f0f;
 }
 
-.produtos{
-    background-image: url(../img/backgrouddescktopblur.png);
-    background-position: center;
-    width: 100vw;
-    height: 83vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.textoBeauty h1{
-    font-family:'Tanmon';
-    font-size: 70px;
-    color: #DDCEAD;
-    padding: 0rem 4rem;
-}
-
-.textoBeauty a{
-    margin-left: 4rem;
-    padding: 1rem;
-    border-radius: 3rem;
-    background-color: #d17165;
-
-    color: #f0f0f0;
-    text-decoration: none;
-    font-family: var(--josefins);
-    font-weight: bolder;
-}
-
-.textoBeauty a:hover{
-    background-color: #916d5f;
-}
 
 .menu-mobile {
     display: none;
@@ -86,49 +54,6 @@ body{
     justify-content: end;
     gap: 1rem;
 }
-
-
-.servicos{
-    display: flex;
-    margin-top: 2rem;
-}
-
-.servicosPng {
-    background-image: url(../img/mulherblr.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 80vh;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.651);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 3rem;
-}
-
-.servicosll a{
-    padding: 1rem;
-    border-radius: 3rem;
-    background-color: #d17165;
-
-    color: #f0f0f0;
-    text-decoration: none;
-    font-family: var(--josefins);
-    font-weight: bolder;
-}
-
-.servicosll a:hover{
-    background-color: #916d5f;
-}
-
-.servicosll h1{
-    font-family:'Tanmon';
-    font-size: 70px;
-    color: #DDCEAD;
-    padding: 0rem 4rem;
-}
-
 
 @media (max-width: 768px) {
 
@@ -191,78 +116,3 @@ body{
         padding: 0.5rem 0;
         text-align: right;
     }
-
-    .produtos {
-        height: auto;
-        padding: 2rem 1rem;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .textoBeauty h1 {
-        font-size: 2.5rem;
-        padding: 0 1rem;
-        text-align: center;
-    }
-    
-    .textoBeauty a {
-        margin: 1rem auto;
-        display: block;
-        width: fit-content;
-    }
-    
-    .servicos {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .servicosPng {
-        background-image: url(../img/mulherblr.png);
-        background-position: left top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100vw;
-        height: 40vh;
-    }
-
-    .servicosll h1{
-        color: #DDCEAD;
-        font-family: "Tanmon";
-        font-size: 3rem;
-        font-weight: 100;
-        letter-spacing: -2px;
-    }
-
-    .servicosll a{
-        background-color: #d17165;
-        padding: 1rem;
-        border-radius: 2rem;
-        color: #DDCEAD;
-        text-decoration: none;
-        font-family: var(--tenorSans);
-        font-weight: bolder;
-    }
-
-    .servicos a:hover{
-        background-color: #916d5f;
-    }
-
-    
-    .agenda {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 2rem 1rem;
-    }
-    
-    .agendaTxt {
-        font-size: 2rem;
-        padding-bottom: 1rem;
-    }
-    
-    .agendaBtn a {
-        font-size: 1.2rem;
-        padding: 0.8rem 1.2rem;
-    }
-}
