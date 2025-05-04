@@ -45,7 +45,7 @@ body{
 }
 
 .produtos{
-    background-image: url(/img/backgrouddescktopblur.png);
+    background-image: url(../img/backgrouddescktopblur.png);
     background-position: center;
     width: 100vw;
     height: 83vh;
