@@ -116,3 +116,105 @@ body{
         padding: 0.5rem 0;
         text-align: right;
     }
+
+    .produtos {
+        position: relative;
+        background-image: url(../img/backgrouddescktopblur.png);
+        background-size: cover;
+        width: 100vw;
+        height: 60vw;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .produtos::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.678));
+        z-index: 1;
+    }
+
+    .produtosTxt h1{
+        font-family:'Tanmon';
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 3px;
+        color: #DDCEAD;
+    }
+
+    .produtosTxt a{
+        font-family: var(--tenorSans);
+        font-size: 1rem;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #DDCEAD;
+        padding:0.5rem;
+        background-color: #d17165;
+        border-radius: 2rem;
+
+    }
+
+    .produtosTxt {
+        position: relative;
+        z-index: 2;
+        padding-left: 1rem;
+    }
+
+    .servicos{
+        position: relative;
+        background-image: url(../img/mulherblr.png);
+        background-size: cover;
+        width: 100vw;
+        height: 60vw;
+        margin-top: 2px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .servicosTxt{
+        position: relative;
+        z-index: 2;
+        padding-left: 1rem;
+    }
+
+    .servicosTxt h1{
+        font-family:'Tanmon';
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 3px;
+        color: #DDCEAD;
+    }
+
+    .servicos a{
+        font-family: var(--tenorSans);
+        font-size: 1rem;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #DDCEAD;
+        padding:0.5rem;
+        background-color: #d17165;
+        border-radius: 2rem;
+    }
+
+    .servicos::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.63));
+        z-index: 1;
+    }
+
+}
