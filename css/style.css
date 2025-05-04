@@ -90,61 +90,46 @@ body{
 
 .servicos{
     display: flex;
-    background-color: #3b231a;
+    margin-top: 2rem;
 }
 
-.servicosPng img{
-    width: 600px;
-    border-radius: 8px;
+.servicosPng {
+    background-image: url(../img/mulherblr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.651);
 }
 
 .servicosPng{
-    padding: 3rem;
-}
-
-.servicosTxt h1{
-    padding: 3rem;
-    font-family:'Tanmon';
-    color: #DDCEAD;
-    font-size: 3rem;
-}
-
-.servicosTxt li{
-    text-decoration: none;
-    font-size: 2rem;
-    font-family: var(--tenorSans);
-    color: #DDCEAD;
-}
-
-.agenda{
     display: flex;
-    justify-content: space-around;
-    background-color: #0f0f0f;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
 }
 
-.agendaTxt {
-    color: #3b231a;
+.servicosll a{
     padding: 1rem;
-    font-family: "Tanmon";
-    font-size: 2.5rem;
-}
+    border-radius: 3rem;
+    background-color: #d17165;
 
-.agendaBtn{
-    display: flex;
-    align-items:center;
-}
-
-.agendaBtn a{
-    padding:1rem;
-    background-color: #3b231a;
+    color: #f0f0f0;
     text-decoration: none;
-    font-family: var(--tenorSans);
-    font-size: 1.6rem;
+    font-family: var(--josefins);
     font-weight: bolder;
-    color: #DDCEAD;
-    border-radius: 2rem;
+}
 
+.servicosll a:hover{
+    background-color: #916d5f;
+}
+
+.servicosll h1{
+    font-family:'Tanmon';
+    font-size: 70px;
+    color: #DDCEAD;
+    padding: 0rem 4rem;
 }
 
 
@@ -192,7 +177,7 @@ body{
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.4s ease;
-        width: 100%;
+        width: 100vw;
         background-color: var(--preto);
         padding-right: 1rem;
     }
@@ -236,20 +221,37 @@ body{
         padding: 2rem 1rem;
     }
     
-    .servicosPng img {
+    .servicosPng {
+        background-image: url(../img/mulherblr.png);
+        background-position: left top;
+        background-size: cover;
+        background-repeat: no-repeat;
         width: 100vw;
-        max-width: 350px;
-        height: auto;
+        height: 40vh;
     }
-    
-    .servicosTxt h1 {
-        font-size: 2rem;
+
+    .servicosll h1{
+        color: #DDCEAD;
+        font-family: "Tanmon";
+        font-size: 3rem;
+        font-weight: 100;
+        letter-spacing: -2px;
+    }
+
+    .servicosll a{
+        background-color: #d17165;
         padding: 1rem;
+        border-radius: 2rem;
+        color: #DDCEAD;
+        text-decoration: none;
+        font-family: var(--tenorSans);
+        font-weight: bolder;
     }
-    
-    .servicosTxt li {
-        font-size: 1.2rem;
+
+    .servicos a:hover{
+        background-color: #916d5f;
     }
+
     
     .agenda {
         flex-direction: column;
