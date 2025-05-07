@@ -38,27 +38,6 @@ p{
     font-weight: lighter;
 }
 
-
-
-
-.menu{
-    padding: 1rem;
-    width: 100vw;
-    height: 10vh;
-
-    background-color: #d17165;
-    display: flex;
-    justify-content: end;
-}
-
-nav a{
-    text-decoration: none;
-    color: #DDCEAD;
-    font-family: var(--tenorSans);
-    font-weight: bolder;
-    padding: 1rem;
-}
-
 .propagandaImg{
     width: 100vw;
     height: 60vh;
@@ -161,3 +140,85 @@ main h1{
     max-width: 100%;
     border-radius: 8px;
   }
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  padding: 20px;
+  background:#d17165;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #DDCEAD;
+  text-decoration: none;
+  font-family: var(--tenorSans);
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  color: #DDCEAD;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background-color: #d172658a;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  .propagandaImg img{
+    height: 30vh;
+  }
+
+  .propagandaImg{
+    height:30vh;
+  }
+
+  .roupa, .acesorio {
+    width: calc(50% - 20px);
+    padding: 10px;
+  }
+
+  .carrossel {
+    height: 180px;
+  }
+
+  .roupa, .acesorio h2 {
+    font-size: 16px;
+    margin: 8px 0 4px;
+  }
+
+  .roupa, .acesorio p {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+
+  .preco {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+}

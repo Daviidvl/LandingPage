@@ -1,94 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Google fontes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tenor+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script" defer></script>
-    <title>Nova Mulher</title>
-</head>
-<body>
-    <header>
+  <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!--Google fontes-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tenor+Sans&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="js/script" defer></script>
+      <title>Nova Mulher</title>
+    </head>
+    <body>
+      <header>
         <div class="menu">
-            <nav>
-                <a href="">Home</a>
-                <a href="">Produtos</a>
-                <a href="">Serviços</a>
-                <a href="">Contato</a>
-            </nav>
+          <div class="hamburger" onclick="toggleMenu()">☰</div>
+          <nav id="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+          </nav>
         </div>
-    </header>
+      </header>
 
-    <main>
+      <main>
         <div class="propagandaImg">
-            <img src="img/backgrouddescktopblur.png" alt="">
+          <img src="img/backgrouddescktopblur.png" alt="" />
         </div>
         <h1>Roupas</h1>
         <div class="containerRoupas">
-            <div class="roupa">
-              <div class="carrossel">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (4).jpeg" class="imagemAtiva">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.07.jpeg">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (1).jpeg">
-                <button class="anterior">&#10094;</button>
-                <button class="proximo">&#10095;</button>
-              </div>
-              <h2>Vestido Azul</h2>
-              <p>Ideal para o dia a dia.</p>
-              <p class="preco">R$180</p>
-            </div>
-          
-            <div class="roupa">
-              <div class="carrossel">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (1).jpeg" class="imagemAtiva">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (4).jpeg">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.10 (4).jpeg">
-                <button class="anterior">&#10094;</button>
-                <button class="proximo">&#10095;</button>
-              </div>
-              <h2>Vestido Vermelho</h2>
-              <p>Conforto e estilo garantidos.</p>
-              <p class="preco">R$200</p>
-            </div>
-          
-            <div class="roupa">
-              <div class="carrossel">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg" class="imagemAtiva">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg">
-                <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg">
-                <button class="anterior">&#10094;</button>
-                <button class="proximo">&#10095;</button>
-              </div>
-              <h2>Vestido Preto</h2>
-              <p>Elegância para todas as ocasiões.</p>
-              <p class="preco">R$220</p>
-            </div>
-
-            <div class="roupa">
-                <div class="carrossel">
-                  <img src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg" class="imagemAtiva">
-                  <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg">
-                  <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg">
-                  <button class="anterior">&#10094;</button>
-                  <button class="proximo">&#10095;</button>
-                </div>
-                <h2>Vestido Preto</h2>
-                <p>Elegância para todas as ocasiões.</p>
-                <p class="preco">R$220</p>
-              </div>
-          </div>
-        <h1>Acesorios</h1>
-    <div class="conainerAcesorios">
-        <div class="acesorio">
+          <div class="roupa">
             <div class="carrossel">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg" class="imagemAtiva">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.08 (4).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.07.jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (1).jpeg" />
+              <button class="anterior">&#10094;</button>
+              <button class="proximo">&#10095;</button>
+            </div>
+            <h2>Vestido Azul</h2>
+            <p>Ideal para o dia a dia.</p>
+            <p class="preco">R$180</p>
+          </div>
+
+          <div class="roupa">
+            <div class="carrossel">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.09 (1).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (4).jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.10 (4).jpeg" />
+              <button class="anterior">&#10094;</button>
+              <button class="proximo">&#10095;</button>
+            </div>
+            <h2>Vestido Vermelho</h2>
+            <p>Conforto e estilo garantidos.</p>
+            <p class="preco">R$200</p>
+          </div>
+
+          <div class="roupa">
+            <div class="carrossel">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg" />
+              <button class="anterior">&#10094;</button>
+              <button class="proximo">&#10095;</button>
+            </div>
+            <h2>Vestido Preto</h2>
+            <p>Elegância para todas as ocasiões.</p>
+            <p class="preco">R$220</p>
+          </div>
+
+          <div class="roupa">
+            <div class="carrossel">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg" />
+              <button class="anterior">&#10094;</button>
+              <button class="proximo">&#10095;</button>
+            </div>
+            <h2>Vestido Preto</h2>
+            <p>Elegância para todas as ocasiões.</p>
+            <p class="preco">R$220</p>
+          </div>
+        </div>
+        <h1>Produtos e Acesorios</h1>
+        <div class="conainerAcesorios">
+          <div class="acesorio">
+            <div class="carrossel">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg" />
               <button class="anterior">&#10094;</button>
               <button class="proximo">&#10095;</button>
             </div>
@@ -99,9 +118,12 @@
 
           <div class="acesorio">
             <div class="carrossel">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg" class="imagemAtiva">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg" />
               <button class="anterior">&#10094;</button>
               <button class="proximo">&#10095;</button>
             </div>
@@ -112,9 +134,12 @@
 
           <div class="acesorio">
             <div class="carrossel">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg" class="imagemAtiva">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg" />
               <button class="anterior">&#10094;</button>
               <button class="proximo">&#10095;</button>
             </div>
@@ -125,9 +150,12 @@
 
           <div class="acesorio">
             <div class="carrossel">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg" class="imagemAtiva">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg">
-              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg">
+              <img
+                src="img/WhatsApp Image 2025-05-03 at 19.09.06 (4).jpeg"
+                class="imagemAtiva"
+              />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.09 (2).jpeg" />
+              <img src="img/WhatsApp Image 2025-05-03 at 19.09.08 (2).jpeg" />
               <button class="anterior">&#10094;</button>
               <button class="proximo">&#10095;</button>
             </div>
@@ -135,12 +163,12 @@
             <p>Elegância para todas as ocasiões.</p>
             <p class="preco">R$220</p>
           </div>
-    </div>
+        </div>
 
-    <div class="propagandaImg">
-        <img src="img/backgrouddescktopblur.png" alt="">
-    </div>
-    </main>
-    <footer><p>Site desenvoldido pelo melhor dev que eu conheço &copy;Davi pereira 2025</p></footer>
-</body>
+        <div class="propagandaImg">
+          <img src="img/backgrouddescktopblur.png" alt="" />
+        </div>
+      </main>
+    </body>
+  </html>
 </html>

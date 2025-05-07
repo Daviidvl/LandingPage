@@ -21,3 +21,7 @@ const carrosseis = document.querySelectorAll('.carrossel');
 
     mostrarImagem(index);
   });
+
+    function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("show");
+  }
