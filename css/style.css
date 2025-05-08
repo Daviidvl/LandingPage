@@ -206,6 +206,70 @@ html {
   cursor: pointer;
 }
 
+
+.containerServicos {
+  width: 100%;
+  background-color: var(--marromClaro);
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#servicos {
+  background-color: var(--marromEscuro);
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#servicos h1 {
+  font-family: var(--tenorSans);
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#servicos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  font-family: var(--josefins);
+  font-size: 30px;
+  color: white;
+}
+
+#servicos li {
+  margin: 10px 0;
+  border-bottom: 1px solid var(--marromClaro);
+  position: relative;
+  padding-left: 25px;
+  text-align: left;
+}
+
+
+#servicos a {
+  font-family: var(--josefins);
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: var(--rosa);
+  color: #f9f9f9;
+  border-radius: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+#servicos a:hover {
+  background-color: #99544a;
+  cursor: pointer;
+}
+
+
+
+
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;
@@ -258,4 +322,6 @@ html {
     font-size: 15px;
     margin-top: 6px;
   }
+
+
 }
